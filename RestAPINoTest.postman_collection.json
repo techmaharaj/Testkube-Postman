@@ -43,7 +43,7 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							""
+							"console.log('id environment variable value:', pm.environment.get('id'));"
 						],
 						"type": "text/javascript"
 					}
