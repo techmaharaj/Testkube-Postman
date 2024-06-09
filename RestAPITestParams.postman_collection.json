@@ -31,7 +31,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://api.restful-api.dev/objects",
+					"raw": "{{url}}/objects",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -90,7 +90,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://api.restful-api.dev/objects?id={{id}}",
+					"raw": "{{url}}/objects?id={{id}}",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -136,7 +136,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://api.restful-api.dev/objects/{{id}}",
+					"raw": "{{url}}/objects/{{id}}",
 					"protocol": "https",
 					"host": [
 						"api",
