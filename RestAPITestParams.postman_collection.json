@@ -34,9 +34,7 @@
 					"raw": "{{url}}/objects",
 					"protocol": "https",
 					"host": [
-						"api",
-						"restful-api",
-						"dev"
+						{{url}}
 					],
 					"path": [
 						"objects"
@@ -93,9 +91,7 @@
 					"raw": "{{url}}/objects?id={{id}}",
 					"protocol": "https",
 					"host": [
-						"api",
-						"restful-api",
-						"dev"
+						{{url}}
 					],
 					"path": [
 						"objects"
@@ -139,9 +135,7 @@
 					"raw": "{{url}}/objects/{{id}}",
 					"protocol": "https",
 					"host": [
-						"api",
-						"restful-api",
-						"dev"
+						{{url}}
 					],
 					"path": [
 						"objects",
