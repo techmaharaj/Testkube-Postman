@@ -34,7 +34,7 @@
 					"raw": "{{url}}/objects",
 					"protocol": "https",
 					"host": [
-						{{url}}
+						"{{url}}"
 					],
 					"path": [
 						"objects"
@@ -91,7 +91,7 @@
 					"raw": "{{url}}/objects?id={{id}}",
 					"protocol": "https",
 					"host": [
-						{{url}}
+						"{{url}}"
 					],
 					"path": [
 						"objects"
@@ -135,7 +135,7 @@
 					"raw": "{{url}}/objects/{{id}}",
 					"protocol": "https",
 					"host": [
-						{{url}}
+						"{{url}}"
 					],
 					"path": [
 						"objects",
